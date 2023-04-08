@@ -12,9 +12,10 @@ function Link({ to, children }) {
         navigate(to);
     };
 
+    // Adjust the behavior of the link if it is the currently selected link
     let classes = '';
     if (to === currentPath) {
-        classes = 'font-bold'
+        classes = 'selected'
     }
 
     return <a href={to} onClick={handleClick} className={classes}>{children}</a>

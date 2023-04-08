@@ -1,3 +1,4 @@
+import './css/app.css';
 import HomePage from "./pages/HomePage";
 import ExperiencePage from "./pages/ExperiencePage";
 import PortfolioPage from "./pages/PortfolioPage";
@@ -7,10 +8,10 @@ import Route from "./components/Route";
 
 function App() {
     return (
-        <div className='font-serif'>
-            <div className='flex justify-between items-center px-3 py-2 bg-red-100'>
-                <h1 className='text-left text-3xl font-bold'>Harry deBoer</h1>
-                <div className='flex justify-end gap-4 px-2 inline-block'>
+        <div className=''>
+            <div className='top-bar'>
+                <h1 className=''>Harry deBoer</h1>
+                <div className='links'>
                     <Link to='/'>Home</Link>
                     <Link to='/experience'>Experience</Link>
                     <Link to='/portfolio'>Portfolio</Link>
