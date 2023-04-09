@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import './css/App.css';
+=======
+import './css/app.css';
+>>>>>>> origin/main
 import HomePage from "./pages/HomePage";
 import ExperiencePage from "./pages/ExperiencePage";
 import PortfolioPage from "./pages/PortfolioPage";
@@ -34,4 +38,8 @@ function App() {
     );
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> origin/main

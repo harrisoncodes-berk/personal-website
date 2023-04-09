@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import '../css/HomePage.css';
+=======
+import '../css/home-page.css';
+>>>>>>> origin/main
 import profilePic from '../png/pic_of_me.png';
 
 function HomePage() {
