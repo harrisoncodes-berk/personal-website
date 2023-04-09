@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import HomePage from "./pages/HomePage";
+import ExperiencePage from "./pages/ExperiencePage";
+import PortfolioPage from "./pages/PortfolioPage";
+import ReadingListPage from "./pages/ReadingList";
+import Link from "./components/Link";
+import Route from "./components/Route";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className=''>
+            <div className='top-bar'>
+                <h1 className=''>Harry deBoer</h1>
+                <div className='links'>
+                    <Link to='/'>Home</Link>
+                    <Link to='/experience'>Experience</Link>
+                    <Link to='/portfolio'>Portfolio</Link>
+                    <Link to='/reading-list'>Reading List</Link>
+                </div>
+            </div> 
+            <Route path='/'>
+                <HomePage />
+            </Route>
+            <Route path='/experience'>
+                <ExperiencePage />
+            </Route>
+            <Route path='/portfolio'>
+                <PortfolioPage />
+            </Route>
+            <Route path='/reading-list'>
+                <ReadingListPage />
+            </Route>
+        </div>
+    );
 }
 
 export default App;
