@@ -1,4 +1,4 @@
-import BookList from "../components/BookList";
+
 
 function ReadingListPage() {
     // Fetch Books 
@@ -7,7 +7,7 @@ function ReadingListPage() {
 
     return (
         <div>
-            <BookList />
+            Book list
         </div>
     );
 }

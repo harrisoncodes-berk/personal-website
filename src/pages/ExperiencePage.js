@@ -5,9 +5,9 @@ import gainCreditPic from '../png/gain_credit_logo.png';
 import ExperienceCard from "../components/ExperienceCard";
 
 function ExperiencePage() {
-    const renderedTikTokPic = <img src={tiktokPic} alt='tiktok pic'/>
-    const renderedDeloittePic = <img src={deloittePic} alt='deloitte pic'/>
-    const renderedGainCreditPic = <img src={gainCreditPic} alt='gc pic'/>
+    const renderedTikTokPic = <img src={tiktokPic} alt='tiktok pic'/>;
+    const renderedDeloittePic = <img src={deloittePic} alt='deloitte pic'/>;
+    const renderedGainCreditPic = <img src={gainCreditPic} alt='gc pic'/>;
 
     return (
         <div className='experience-page'>
