@@ -1,8 +1,13 @@
+import BookList from "../components/BookList";
+
 function ReadingListPage() {
+    // Fetch Books 
+    // Render Books
+    // Display Books
+
     return (
         <div>
-            <h1>Books</h1>
-            <p>List all the books I've read and tag each book with a genre, rating, link, and commentary. Enable filtering on genre and rating</p>
+            <BookList />
         </div>
     );
 }

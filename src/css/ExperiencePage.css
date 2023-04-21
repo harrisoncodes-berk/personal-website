@@ -1,0 +1,15 @@
+.experience-list {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header h2 {
+    font-size: 36px;
+    font-weight: normal;
+    padding: 0 20px;
+}

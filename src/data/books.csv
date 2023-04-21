@@ -1,0 +1,17 @@
+id,title,author,genre,year,rating
+1,Animal Farm,George Orwell,Fiction,2022,4
+2,Dune,Frank Herbert,Fiction,2022,5
+3,Think Again,Adam Grant,Non-fiction,2022,4
+4,Atomic Habits,James Clear,Non-fiction,2022,4
+5,Daisy Jones & The Six,Taylor Jenkins Reid,Fiction,2022,3.5
+6,Steve Jobs Biography,Walter Isaacson,Non-fiction,2022,5
+7,Project Hail Mary,Andy Weir,Fiction,2022,4.5
+8,Why We're Polarized,Ezra Klein,Non-fiction,2022,4.5
+9,Norwegian Wood,Haruki Murakami,Fiction,2022,4.5
+10,Three Body Problem,Liu Cixin,Fiction,2022,4
+11,How the World Really Works,Vaclav Smil,Non-fiction,2022,3.7
+12,A Wild Sheep Chase,Haruki Murakami,Fiction,2022,4
+13,The Dark Forest,Liu Cixin,Fiction,2023,5
+14,Death's End,Liu Cixin ,Fiction,2023,4.5
+15,The Psychology of Money,Morgan Housel,Non-fiction,2023,4
+16,Philosophy of Software Design,John Ousterhout,Non-fiction,2023,4
