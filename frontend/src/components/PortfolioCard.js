@@ -1,4 +1,4 @@
-import "../css/PortfolioCard.css";
+import "./PortfolioCard.css";
 import { BsGithub } from "react-icons/bs";
 
 function PortfolioCard({ image, name, description, url }) {
@@ -8,7 +8,7 @@ function PortfolioCard({ image, name, description, url }) {
       <h3>{name}</h3>
       <p>{description}</p>
       <a href={url} target="_blank" rel="noreferrer">
-        <img className="icon" src={BsGithub} alt="github icon" />
+        <BsGithub />
       </a>
     </div>
   );

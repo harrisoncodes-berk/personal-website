@@ -1,8 +1,9 @@
+import './PortfolioPage.css';
+
 import PortfolioCard from "../components/PortfolioCard";
 import ReactIcon from '../png/icons8-react-100.png';
 import SpotifyIcon from '../png/icons8-spotify-144.png';
 import CatanIcon from '../png/icons8-catan-64.png';
-import '../css/PortfolioPage.css';
 
 function PortfolioPage() {
     const renderedReact = <img className="project-img" src={ReactIcon} alt='tiktok pic'/>;
@@ -13,8 +14,8 @@ function PortfolioPage() {
         <div className='portfolio-page'>
             <div className='header'>
                 <h2>Portfolio</h2>
-                <hr />
             </div>
+            <hr />
             <div className='project-list'>
                 <PortfolioCard 
                     image={renderedReact}

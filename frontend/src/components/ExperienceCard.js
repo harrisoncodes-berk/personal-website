@@ -1,4 +1,4 @@
-import "../css/ExperienceCard.css";
+import "./ExperienceCard.css";
 
 function ExperienceCard({ image, company, position, dates, description }) {
   return (

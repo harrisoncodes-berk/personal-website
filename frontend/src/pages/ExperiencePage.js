@@ -1,4 +1,4 @@
-import '../css/ExperiencePage.css';
+import './ExperiencePage.css';
 import tiktokPic from '../png/tiktok_logo.png';
 import deloittePic from '../png/deloitte_logo.png';
 import gainCreditPic from '../png/gain_credit_logo.png';

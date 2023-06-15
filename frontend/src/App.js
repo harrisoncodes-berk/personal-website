@@ -1,11 +1,13 @@
-import "./css/App.css";
 import { useState, useEffect } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import "./App.css";
+
+import NavigationBar from "./components/NavigationBar";
 import HomePage from "./pages/HomePage";
 import ExperiencePage from "./pages/ExperiencePage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ReadingListPage from "./pages/ReadingList";
-import Link from "./components/Link";
-import Route from "./components/Route";
 
 function App() {
   const [books, setBooks] = useState([]);
@@ -28,29 +30,15 @@ function App() {
   }, [setBooks]);
 
   return (
-    <div className="">
-      <div className="top-bar">
-        <h1 className="">Harry deBoer</h1>
-        <div className="links">
-          <Link to="/">Home</Link>
-          <Link to="/experience">Experience</Link>
-          <Link to="/portfolio">Portfolio</Link>
-          <Link to="/reading-list">Reading List</Link>
-        </div>
-      </div>
-      <Route path="/">
-        <HomePage />
-      </Route>
-      <Route path="/experience">
-        <ExperiencePage />
-      </Route>
-      <Route path="/portfolio">
-        <PortfolioPage />
-      </Route>
-      <Route path="/reading-list">
-        <ReadingListPage books={books} headers={headers} />
-      </Route>
-    </div>
+    <BrowserRouter>
+      <NavigationBar />
+      <Routes>
+        <Route path="/*" element={<HomePage />} />
+        <Route path="/experience" element={<ExperiencePage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/reading-list" element={<ReadingListPage books={books} headers={headers} />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

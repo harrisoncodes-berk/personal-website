@@ -1,0 +1,25 @@
+.nav-bar {
+  height: 5rem;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.nav-bar__links {
+  list-style: none;
+  display: flex;
+  font-size: 18px;
+}
+
+.link {
+  padding-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: bold;
+}

@@ -1,4 +1,4 @@
-import '../css/HomePage.css';
+import './HomePage.css';
 import profilePic from '../png/pic_of_me.png';
 
 function HomePage() {
