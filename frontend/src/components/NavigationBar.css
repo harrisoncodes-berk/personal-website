@@ -1,6 +1,5 @@
 .nav-bar {
   height: 5rem;
-  padding: 0 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,14 +7,20 @@
   color: white;
 }
 
+.nav-bar h3 {
+    font-weight: normal;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
 .nav-bar__links {
   list-style: none;
   display: flex;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .link {
-  padding-right: 10px;
+  margin-right: 20px;
   color: white;
   text-decoration: none;
 }

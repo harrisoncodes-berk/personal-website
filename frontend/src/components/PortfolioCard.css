@@ -1,16 +1,20 @@
 .portfolio-card {
-    flex: 1;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
     background-color: rgb(243, 240, 240);
     margin: 10px 20px;
     padding: 12px;
 }
 
-
-
-.icon {
-    height: 20px;
-    width: 20px;
+.portfolio-card h3 {
+    margin: 20px 0;
 }
+
+.portfolio-card p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+

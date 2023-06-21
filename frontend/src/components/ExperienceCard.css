@@ -1,8 +1,8 @@
 .experience-card {
-  flex: 1;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
   align-items: center;
-  text-align: center;
   background-color: rgb(243, 240, 240);
   margin: 10px 20px;
   padding: 12px;
@@ -10,18 +10,20 @@
 
 .experience-card h3 {
   font-size: 28px;
+  margin-top: 20px;
 }
 
 .experience-card h4 {
   font-weight: lighter;
   font-size: 22px;
+  margin: 20px;
 }
 
 .experience-card p {
+  margin-top: 10px;
   font-size: 20px;
 }
 
-/* customize more later */
 .experience-card img {
   height: 120px;
   width: auto;
